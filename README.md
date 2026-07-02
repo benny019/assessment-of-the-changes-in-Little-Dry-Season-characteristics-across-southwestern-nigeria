@@ -28,7 +28,7 @@ The development of the LDS is influenced by a combination of atmospheric and oce
 
 Although previous studies have provided valuable insights into the variability of the LDS, many have relied on station observations or relatively short temporal records, limiting their ability to detect long-term regional changes. Furthermore, comparatively few studies have comprehensively examined how changes in Gulf of Guinea SST influence the evolving characteristics of the LDS over multiple decades. This project addresses these gaps by integrating **40 years (1985–2024)** of high-resolution CHIRPS rainfall observations with **NOAA Optimum Interpolation Sea Surface Temperature (OISST v2.1)** data to investigate how the characteristics of the Little Dry Season have evolved under a warming climate and to assess the role of Gulf of Guinea SST variability in shaping these changes.
 
-![]()
+![](outputs/charts/cumulative_percentage_rainfall_chart_2024.png)
 **Figure 1.** Long-term monthly rainfall climatology showing the bimodal rainfall pattern and the Little Dry Season across southwestern Nigeria.
 
 ## Objectives
