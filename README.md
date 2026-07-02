@@ -29,7 +29,8 @@ The development of the LDS is influenced by a combination of atmospheric and oce
 Although previous studies have provided valuable insights into the variability of the LDS, many have relied on station observations or relatively short temporal records, limiting their ability to detect long-term regional changes. Furthermore, comparatively few studies have comprehensively examined how changes in Gulf of Guinea SST influence the evolving characteristics of the LDS over multiple decades. This project addresses these gaps by integrating **40 years (1985–2024)** of high-resolution CHIRPS rainfall observations with **NOAA Optimum Interpolation Sea Surface Temperature (OISST v2.1)** data to investigate how the characteristics of the Little Dry Season have evolved under a warming climate and to assess the role of Gulf of Guinea SST variability in shaping these changes.
 
 ![](outputs/charts/cumulative_percentage_rainfall_chart_2024.png)
-**Figure 1.** Long-term monthly rainfall climatology showing the bimodal rainfall pattern and the Little Dry Season across southwestern Nigeria.
+![](outputs/charts/cumulative_rainfall_chart_1985-2024_mean.png)
+**Figure 1.** Long-term monthly rainfall cumululative chart showing the decline in rainfall during the Little Dry Season across southwestern Nigeria.
 
 ## Objectives
 The project aims to evaluate recent changes in the characteristics of the Little Dry Season (LDS) across southwestern Nigeria and investigate the influence of Gulf of Guinea sea surface temperatures.
@@ -47,7 +48,9 @@ Specifically, the study seeks to:
 The study covers **Southwestern Nigeria**, extending approximately between **4°–9°N** and **3°–7°E**, where the Little Dry Season is most pronounced. The analysis includes Lagos, Ogun, Oyo, Osun, Ondo, Ekiti, and adjoining areas of Edo that fall within the LDS climatic zone.
 The region experiences a humid tropical climate characterized by a **bimodal rainfall regime**, with rainfall peaks occurring around **July** and **September**, separated by the Little Dry Season during July–August.
 Rainfall in the region is strongly influenced by the West African Monsoon, the migration of the Intertropical Discontinuity (ITD), and ocean–atmosphere interactions over the Gulf of Guinea. These factors make southwestern Nigeria one of the most suitable regions for studying changes in intra-seasonal rainfall variability.
-*Insert your study area map here.*
+
+![](outputs/charts/sw_mean_JA_rainfall.png)
+**Figure 2.** Study area showing southwestern Nigeria and average rainfall distribution during July - August Period
 
 ## Data & Methodology
 
@@ -90,4 +93,27 @@ The workflow consisted of the following steps:
    - Performed Pearson correlation between LDS characteristics and SST indices.
    - Conducted month-by-month cross-correlation to identify the periods when Gulf of Guinea SST exhibits the strongest relationship with subsequent LDS behaviour.
 
-*Insert the workflow diagram immediately after this section.*
+                                   PROJECT WORKFLOW
+
+```mermaid
+flowchart TD
+
+A[CHIRPS Daily Rainfall<br/>1985–2024]
+B[NOAA OISST v2.1 SST<br/>1985–2024]
+
+A --> C
+B --> C
+
+C[Data Processing]
+
+C --> D[LDS Detection<br/>5-Day Cumulative Percentage Rainfall Method]
+
+D --> E[Derive LDS Characteristics]
+
+E --> F[Compute Gulf of Guinea SST Anomalies]
+
+F --> G[Trend, Correlation and Cross-Correlation Analyses]
+
+G --> H[Results and Interpretation]
+```
+**Figure 3.** Workflow summarizing the datasets, preprocessing, LDS detection, metric derivation, SST anomaly computation, and statistical analyses.
