@@ -180,7 +180,7 @@ Overall, while the trend lines suggest a gradual shift towards a slightly earlie
 ![](outputs/charts/trend_in_LDS_Raindays.png)
 **Figure X.** Annual variation and trend in the number of rain days.
 
-![](outputs/charts/trend_in_LDS_rain_day_frequency.png)
+![](outputs/charts/trend_in_LDS_rainday_frequency.png)
 **Figure X.** Annual variation and trend in rain-day frequency.
 
 Rainfall characteristics exhibit stronger long-term changes than the timing metrics. Total rainfall during the LDS fluctuates considerably from year to year, with several exceptionally wet and dry seasons, while the number of rain days shows a gradual decline over the study period.
