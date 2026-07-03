@@ -19,7 +19,6 @@ The development of the LDS is influenced by a combination of atmospheric and oce
 
 Although previous studies have provided valuable insights into the variability of the LDS, many have relied on station observations or relatively short temporal records, limiting their ability to detect long-term regional changes. Furthermore, comparatively few studies have comprehensively examined how changes in Gulf of Guinea SST influence the evolving characteristics of the LDS over multiple decades. This project addresses these gaps by integrating **40 years (1985–2024)** of high-resolution CHIRPS rainfall observations with **NOAA Optimum Interpolation Sea Surface Temperature (OISST v2.1)** data to investigate how the characteristics of the Little Dry Season have evolved under a warming climate and to assess the role of Gulf of Guinea SST variability in shaping these changes.
 
-![](outputs/charts/cumulative_percentage_rainfall_chart_2024.png)
 ![](outputs/charts/cumulative_rainfall_chart_1985-2024_mean.png)
 **Figure 1.** Sample of rainfall cumululative chart (year 2024) showing the sharp decline in rainfall during the Little Dry Season across southwestern Nigeria.
 
@@ -117,40 +116,91 @@ G --> H[Results and Interpretation]
 
 ## Results & Discussion
 
-### 1. Identification of the Little Dry Season
+### 1. Identification and Evolution of the Little Dry Season
 
 The Little Dry Season (LDS) was identified using the cumulative percentage rainfall method proposed by Odekunle (2004). Rather than relying on absolute rainfall totals, this approach expresses cumulative annual rainfall as a percentage of the yearly total. Periods where the cumulative rainfall curve becomes noticeably flatter indicate a temporary reduction in rainfall accumulation and correspond to the Little Dry Season.
 
 A sample annual cumulative rainfall curve is first shown to illustrate how the onset and cessation of the LDS were visually identified. The onset corresponds to the point where the cumulative curve begins to flatten, while the cessation marks the point where the curve resumes a steeper upward trajectory.
-
-![](outputs/charts/cummulative chart for all years/2024.png)
-
+![](outputs/charts/cumulative_percentage_rainfall_chart_2024.png)
 **Figure 3.** Cumulative rainfall curve for year 2024 displayed as a sample. 
 
 Readers interested in inspecting every individual year can expand the section below.
-
 <details>
 <summary><strong>View cumulative rainfall curves for all years (1985–2024)</strong></summary>
-
 ![](outputs/charts/cumulative_rainfall_subplot_chart_1985-2024.png)
 
 </details>
 
+
 To investigate long-term changes, cumulative rainfall curves were averaged by decade and compared with the overall climatological mean (1985–2024).
-
 ![](outputs/charts/cumulative_rainfall_chart_for_each_decades.png)
-
 **Figure 4.** Average cumulative percentage rainfall by decade relative to the overall climatology (1985–2024).
 
 The decade-average curves reveal a gradual evolution in the rainfall accumulation pattern over southwestern Nigeria. During the LDS period (approximately July–August), the curves representing the earlier decades (1980s and 1990s) generally remain above the long-term mean, whereas the 2010s and especially the 2020s lie below it for much of the same interval. This indicates that a smaller proportion of the annual rainfall is being accumulated during the Little Dry Season in recent decades.
 
-The divergence is most pronounced during the LDS window, after which the curves rapidly converge toward the end of the rainy season. This suggests that rainfall deficits occurring during the LDS are partly compensated by increased rainfall later in the season rather than representing a persistent reduction throughout the remainder of the year.
-
 While the cumulative rainfall curves provide qualitative evidence of evolving LDS behaviour, they do not by themselves distinguish whether the changes arise from reduced rainfall totals, fewer rain days, longer dry spells, or changes in rainfall intensity. These aspects are quantified in the derived LDS metrics presented in the following section.
 
-### 1. Annual Summary of LDS Characteristics
+## 2. Derived Annual LDS Characteristics
 
-The derived LDS metrics were merged into a single annual summary table containing one record for each year (1985–2024). This table forms the basis for all subsequent trend, correlation, and cross-correlation analyses.
+Using the identified onset and cessation dates, annual LDS characteristics were derived for each year from 1985 to 2024. These metrics quantify changes in the timing, duration, rainfall occurrence, and rainfall distribution within the Little Dry Season and form the basis of the subsequent trend and correlation analyses.
 
-| Year | Onset | Cessation | Duration | Total Rainfall | Rain Days | Rain-day Frequency | Rainfall per LDS Duration | Rainfall per LDS Rain Day | ... |
-|------|--------|-----------|----------|----------------|-----------|--------------------|---------------------------|---------------------------|-----|
+The table below presents a preview of the derived annual dataset. The complete dataset is available in [`outputs/tables/lds_metrics_table.csv`](outputs/tables/lds_metrics_table.csv)
+
+![](outputs/charts/lds_metrics_preview.png)
+**Table 1.** Preview of the annual LDS characteristics derived for 1985–2024.
+
+## 3. Long-term Changes in Little Dry Season Characteristics
+
+The annual LDS characteristics derived from the cumulative rainfall analysis reveal that the Little Dry Season has changed over the last four decades, although the magnitude and direction of change differ among the individual metrics.
+
+### 3.1 Changes in Timing
+
+![](outputs/charts/trend_in_LDS_Onset_Day.png)
+**Figure X.** Annual variation and linear trend in LDS onset day (1985–2024).
+
+![](outputs/charts/trend_in_LDS_Cessation_Day.png)
+**Figure X.** Annual variation and linear trend in LDS cessation day (1985–2024).
+
+![](outputs/charts/trend_in_LDS_Duration.png)
+**Figure X.** Annual variation and linear trend in LDS duration.
+
+The timing characteristics of the Little Dry Season exhibit pronounced interannual variability but only modest long-term changes over the study period. The onset date fluctuates considerably from one year to another, spanning from late June to late August, yet displays only a very weak negative trend (**−0.05 days year⁻¹**). This indicates that, despite substantial year-to-year differences, there is little evidence of a systematic long-term shift in the timing of LDS onset.
+
+In contrast, the cessation date exhibits a more consistent tendency towards earlier occurrence, with a negative trend of **−0.15 days year⁻¹**, equivalent to an advance of approximately **6 days** between 1985 and 2024. This tendency becomes visually more apparent in the later years of the record, where earlier cessation dates occur more frequently than during the first half of the study period. Consequently, the duration of the LDS also shows a gradual decline (**−0.10 days year⁻¹**), representing a shortening of approximately **4 days** over the study period.
+
+Overall, while the trend lines suggest a gradual shift towards a slightly earlier cessation and a shorter Little Dry Season, the relatively shallow slopes compared with the pronounced interannual variability indicate that natural year-to-year climate variability remains the dominant influence on LDS timing.
+
+---
+
+### 3.2 Changes in Rainfall Characteristics
+
+![](outputs/charts/trend_in_LDS_total_rainfall.png)
+**Figure X.** Annual variation and trend in total rainfall during the LDS.
+
+![](outputs/charts/trend_in_LDS_Raindays.png)
+**Figure X.** Annual variation and trend in the number of rain days.
+
+![](outputs/charts/trend_in_LDS_rain_day_frequency.png)
+**Figure X.** Annual variation and trend in rain-day frequency.
+
+Rainfall characteristics exhibit stronger long-term changes than the timing metrics. Total rainfall during the LDS fluctuates considerably from year to year, with several exceptionally wet and dry seasons, while the number of rain days shows a gradual decline over the study period.
+
+The reduction in rain-day frequency indicates that rainfall is occurring on a smaller proportion of days within the LDS window. Together, these observations suggest that rainfall occurrence has become less frequent, even though individual seasons continue to display substantial interannual variability.
+
+---
+
+### 3.3 Changes in Rainfall Distribution
+
+![](outputs/charts/trend_in_LDS_mean_daily_rainfall.png)
+
+**Figure X.** Annual variation and trend in rainfall per LDS duration.
+
+![](outputs/charts/trend_in_LDS_mean_rainfall_per_rainday.png)
+
+**Figure X.** Annual variation and trend in rainfall per LDS rain day.
+
+While rainfall per LDS duration shows a slight declining tendency, rainfall per LDS rain day exhibits an increasing trend throughout the study period. The divergence between these two metrics becomes particularly evident after approximately 2010.
+
+This contrasting behaviour suggests that although rainfall is occurring on fewer days and the average rainfall distributed across the entire LDS period is gradually decreasing, rainfall events themselves are becoming more intense whenever they occur. In other words, rainfall appears to be increasingly concentrated into fewer, heavier rainfall events rather than being evenly distributed across the season.
+
+This emerging pattern provides evidence of a changing rainfall regime during the Little Dry Season and forms the basis for investigating whether warming Gulf of Guinea sea surface temperatures are influencing these observed changes.
