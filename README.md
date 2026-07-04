@@ -81,34 +81,8 @@ The generated LDS Metrics and SST Anomalies were added to the summary table.
    - Performed Pearson correlation between LDS characteristics and SST indices.
    - Conducted month-by-month cross-correlation to identify the periods when Gulf of Guinea SST exhibits the strongest relationship with subsequent LDS behaviour.
 
-                                   PROJECT WORKFLOW
-
-```mermaid
-flowchart TD
-
-A[CHIRPS Daily Rainfall<br/>1985–2024]
-B[NOAA OISST v2.1 SST<br/>1985–2024]
-
-A --> C
-B --> C
-
-C[Data Processing]
-
-C --> D[LDS Detection<br/>5-Day Cumulative Percentage Rainfall Method]
-
-D --> E[Derive LDS Characteristics]
-
-E --> F[Compute Gulf of Guinea SST Anomalies]
-
-F --> G[Trend, Correlation and Cross-Correlation Analyses]
-
-G --> H[Results and Interpretation]
-```
-**Figure 3.** Workflow summarizing the datasets, preprocessing, LDS detection, metric derivation, SST anomaly computation, and statistical analyses.
-
 
 ## Results & Discussion
-
 ### 1. Identification and Evolution of the Little Dry Season
 The Little Dry Season (LDS) was identified using the cumulative percentage rainfall method proposed by Odekunle (2004). Rather than relying on absolute rainfall totals, this approach expresses cumulative annual rainfall as a percentage of the yearly total. Periods where the cumulative rainfall curve becomes noticeably flatter indicate a temporary reduction in rainfall accumulation and correspond to the Little Dry Season.
 
