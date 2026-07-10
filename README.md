@@ -29,12 +29,15 @@ Specifically, the study seeks to:
 - Provide insights into how regional ocean warming may influence sub-seasonal rainfall behaviour and climate adaptation in southwestern Nigeria.
 
 ## Study Area
+![](study-area-map.png)
+**Figure 2.** Map of study area
+
 The study covers mostly the **Southwestern Nigeria**, extending approximately between **4°–9°N** and **3°–7°E**, where the Little Dry Season is most pronounced. This specifically includes Lagos, Ogun, Oyo, Osun, Ondo, Ekiti, and adjoining areas of Edo which fall within the LDS climatic zone.
 The region experiences a humid tropical climate characterized by a **bimodal rainfall regime**, with rainfall peaks occurring around **July** and **September**, separated by the Little Dry Season during July–August.
 Rainfall in the region is strongly influenced by the West African Monsoon, the migration of the Intertropical Discontinuity (ITD), and ocean–atmosphere interactions over the Gulf of Guinea. These factors make southwestern Nigeria one of the most suitable regions for studying changes in intra-seasonal rainfall variability.
 
 ![](outputs/charts/sw_mean_JA_rainfall.png)
-**Figure 2.** Study area showing southwestern Nigeria and average rainfall distribution during July - August Period
+**Figure 3.** Study area showing southwestern Nigeria and average rainfall distribution during July - August Period
 
 ## Data & Methodology
 
@@ -88,7 +91,7 @@ The Little Dry Season (LDS) was identified using the cumulative percentage rainf
 
 A sample annual cumulative rainfall curve is first shown to illustrate how the onset and cessation of the LDS were visually identified. The onset corresponds to the point where the cumulative curve begins to flatten, while the cessation marks the point where the curve resumes a steeper upward trajectory.
 ![](outputs/charts/cumulative_percentage_rainfall_chart_2024.png)
-**Figure 3.** Cumulative rainfall curve for year 2024 displayed as a sample. 
+**Figure 4.** Cumulative rainfall curve for year 2024 displayed as a sample. 
 
 If interested in inspecting every individual year, kindly expand the section below.
 <details>
@@ -100,7 +103,7 @@ If interested in inspecting every individual year, kindly expand the section bel
 
 To investigate long-term changes, cumulative rainfall curves were averaged by decade and compared with the overall climatological mean (1985–2024).
 ![](outputs/charts/cumulative_rainfall_chart_for_each_decades.png)
-**Figure 4.** Average cumulative percentage rainfall by decade relative to the overall climatology (1985–2024).
+**Figure 5.** Average cumulative percentage rainfall by decade relative to the overall climatology (1985–2024).
 
 The decade-average curves reveal a gradual evolution in the rainfall accumulation pattern over southwestern Nigeria. During the LDS period (approximately July–August), the curves representing the earlier decades (1980s and 1990s) generally remain above the long-term mean, whereas the 2010s and especially the 2020s lie below it for much of the same interval. This indicates that a smaller proportion of the annual rainfall is being accumulated during the Little Dry Season in recent decades.
 
@@ -122,13 +125,13 @@ The annual LDS characteristics derived from the cumulative rainfall analysis rev
 ### 3.1 Changes in Timing
 
 ![](outputs/charts/trend_in_LDS_Onset_Day.png)
-**Figure 5.** Annual variation and linear trend in LDS onset day (1985–2024).
+**Figure 6.** Annual variation and linear trend in LDS onset day (1985–2024).
 
 ![](outputs/charts/trend_in_LDS_Cessation_Day.png)
-**Figure 6.** Annual variation and linear trend in LDS cessation day (1985–2024).
+**Figure 7.** Annual variation and linear trend in LDS cessation day (1985–2024).
 
 ![](outputs/charts/trend_in_LDS_Duration.png)
-**Figure 7.** Annual variation and linear trend in LDS duration.
+**Figure 8.** Annual variation and linear trend in LDS duration.
 
 The timing characteristics of the Little Dry Season exhibit pronounced interannual variability but only modest long-term changes over the study period. The onset date fluctuates considerably from one year to another, spanning from late June to late August, yet displays only a very weak negative trend (**−0.05 days year⁻¹**). This indicates that, despite substantial year-to-year differences, there is little evidence of a systematic long-term shift in the timing of LDS onset.
 
@@ -141,13 +144,13 @@ Overall, while the trend lines suggest a gradual shift towards a slightly earlie
 ### 3.2 Changes in Rainfall Characteristics
 
 ![](outputs/charts/trend_in_LDS_total_rainfall.png)
-**Figure 8.** Annual variation and trend in total rainfall during the LDS.
+**Figure 9.** Annual variation and trend in total rainfall during the LDS.
 
 ![](outputs/charts/trend_in_LDS_Raindays.png)
-**Figure 9.** Annual variation and trend in the number of rain days.
+**Figure 10.** Annual variation and trend in the number of rain days.
 
 ![](outputs/charts/trend_in_LDS_rainday_frequency.png)
-**Figure 10.** Annual variation and trend in rain-day frequency.
+**Figure 11.** Annual variation and trend in rain-day frequency.
 
 In contrast to the timing metrics, the rainfall characteristics exhibit more pronounced long-term changes, with all three indicators showing consistent declining trends over the study period. Total rainfall during the Little Dry Season decreases at a rate of **−1.14 mm year⁻¹**, representing a reduction of approximately **46 mm** between 1985 and 2024. The trend line declines from roughly **125 mm** in the earlier years to about **80 mm** in recent years, with the reduction becoming visually more apparent in the latter part of the record, particularly after **2017**.
 
@@ -161,7 +164,7 @@ Together, these findings suggest that the recent drying of the Little Dry Season
 
 ### 3.3 Changes in Rainfall Distribution Within the Little Dry Season
 ![](outputs/charts/LDS_daily_rainfall_comparison.png)
-**Figure 11.** Diverging long-term trends in rainfall per LDS duration and rainfall per LDS rain day (1985–2024).
+**Figure 12.** Diverging long-term trends in rainfall per LDS duration and rainfall per LDS rain day (1985–2024).
 
 The previous section showed that rainfall during the Little Dry Season has become less frequent, with rain occurring on a progressively smaller proportion of days within the season. To examine how rainfall is distributed, rainfall per LDS duration (average rainfall across all LDS days) was compared with rainfall per LDS rain day (average rainfall on days when rain occurred).
 
@@ -176,12 +179,12 @@ Using the **3 mm day⁻¹** threshold proposed by Adejuwon and Odekunle as an in
 The previous sections established that the Little Dry Season has become characterized by fewer rainfall days and increasingly concentrated rainfall events. To investigate a potential driver of these changes, long-term variations in Gulf of Guinea sea surface temperature (SST) were examined.
 
 ![](outputs/charts/gulf_of_guinea_mean_sst_trend_1985_2024.png)
-**Figure 12.** Annual mean Gulf of Guinea sea surface temperature (1985–2024).
+**Figure 13.** Annual mean Gulf of Guinea sea surface temperature (1985–2024).
 
 The Gulf of Guinea exhibits a clear long-term warming trend over the study period despite substantial seasonal variability. Mean SST increases at approximately **0.024 °C year⁻¹**, equivalent to nearly **1 °C** of warming over the 40-year record. While the strong annual cycle dominates the monthly observations, the positive trend indicates a persistent warming of the regional ocean.
 
 ![](outputs/charts/trend_in_JA_SST_anomaly.png)
-**Figure 13.** Trend in July–August Gulf of Guinea sea surface temperature anomaly (1985–2024).
+**Figure 14.** Trend in July–August Gulf of Guinea sea surface temperature anomaly (1985–2024).
 
 The July–August SST anomaly also displays a positive long-term trend of approximately **0.03 °C year⁻¹**, with recent years consistently exhibiting positive anomalies relative to the long-term average. In particular, the warmest anomalies occur predominantly after the mid-2010s, suggesting that the Gulf of Guinea has experienced increasingly warmer conditions during the period when the Little Dry Season typically develops.
 
@@ -192,7 +195,7 @@ The concurrent warming of the Gulf of Guinea and changes in the Little Dry Seaso
 To examine potential ocean–atmosphere influences on the Little Dry Season, seasonal SST indices (July–August mean SST, July–August SST anomaly, June–July SST anomaly, and June–August SST anomaly) were merged with the annual LDS metrics. Pearson correlation analysis was then used to quantify the strength and direction of the relationships between SST variability and each LDS characteristic.
 
 ![](outputs/charts/correlation_heatmap_lds_vs_sst_anomalies.png)
-**Figure X.** Pearson correlation between Gulf of Guinea SST indices and Little Dry Season characteristics.
+**Figure 15.** Pearson correlation between Gulf of Guinea SST indices and Little Dry Season characteristics.
 
 Overall, the relationships between Gulf of Guinea SST and the Little Dry Season were generally **weak to moderate**, suggesting that SST is an important contributing factor but not the sole control on LDS variability.
 
@@ -204,8 +207,7 @@ These results suggest that warmer Gulf of Guinea conditions are associated less 
 
 ### 5.1 Seasonal Influence of SST on the Little Dry Season
 ![](outputs/charts/cross_correlation_heatmaps.png)
-
-**Figure X.** Monthly cross-correlation between Gulf of Guinea SST anomalies and Little Dry Season characteristics.
+**Figure 16.** Monthly cross-correlation between Gulf of Guinea SST anomalies and Little Dry Season characteristics.
 
 To identify when Gulf of Guinea SST exerts the greatest influence on the Little Dry Season, monthly SST anomalies from **January to August** were correlated with each LDS characteristic. This analysis assesses whether SST conditions preceding the LDS, as well as those during the season itself, are associated with changes in its timing and rainfall characteristics.
 
